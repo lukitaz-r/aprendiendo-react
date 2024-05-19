@@ -1,0 +1,25 @@
+{
+  "name": "aprendiendo-react",
+  "version": "0.0.0",
+  "description": "Siguiendo el curso de React 2024 de MiduDev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukitaz-r/aprendiendo-react.git"
+  },
+  "keywords": [
+    "React",
+    "Javascript",
+    "Vite",
+    "Typescript"
+  ],
+  "author": "Luca Ramirez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukitaz-r/aprendiendo-react/issues"
+  },
+  "homepage": "https://github.com/lukitaz-r/aprendiendo-react#readme"
+}

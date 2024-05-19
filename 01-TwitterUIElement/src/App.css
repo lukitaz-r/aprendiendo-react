@@ -1,0 +1,83 @@
+#card {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    background: #000;
+    border: solid 1px #2f3336;
+    color: #e7e9ea;
+    border-radius: 20px;
+    margin: auto;
+}
+
+h1, p {
+    text-align: center;
+}
+
+#card__header {
+    padding: 12px 0px 12px 12px
+}
+
+#card__header h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+#card__content {
+    display: inherit;
+    flex-direction: column;
+}
+
+.card__acc {
+    padding: 12px 16px;
+    display: inherit;
+    align-items: center;
+}
+
+.card__acc-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0px 12px 0px 0px
+}
+
+.card__acc-content {
+    display: inherit;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    width: calc(100% - 40px);
+    justify-content: space-between
+}
+
+.card__acc-info {
+    display: inherit;
+    flex-direction: column;
+}
+
+.card__acc-info .acc__name {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 5px
+}
+
+
+.card__acc-info .acc__tag {
+    font-size: 1rem;
+    color: #71767B
+}
+
+#card__footer {
+    padding: 12px 16px
+}
+
+.card__acc-follow .acc__follow-button {
+    padding: 8px 17px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #eff3f4;
+    border: none;
+    border-radius: 20px;
+    color: #000;
+    cursor: pointer
+}
