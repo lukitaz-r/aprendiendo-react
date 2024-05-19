@@ -27,7 +27,7 @@ function App() {
                     />
                 </div>
                 <div id="card__footer">
-                    <a href="#">Monstrar más</a>
+                    <a href="https://github.com/lukitaz-r/aprendiendo-react">Monstrar más</a>
                 </div>
             </div>
         </>

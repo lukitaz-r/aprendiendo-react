@@ -71,6 +71,15 @@ h1, p {
     padding: 12px 16px
 }
 
+#card__footer a {
+    text-decoration: none;
+    color: #1da1f2;
+}
+
+#card__footer a:hover {
+    text-decoration: underline;
+}
+
 .card__acc-follow .acc__follow-button {
     padding: 8px 17px;
     font-size: 14px;
