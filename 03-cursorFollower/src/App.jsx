@@ -20,6 +20,7 @@ function App() {
     document.body.classList.toggle('no-cursor', enabled)
     return () => document.body.classList.remove('no-cursor')
   }, [enabled])
+
   return (
     <>
       <div style={{
@@ -35,9 +36,7 @@ function App() {
         width: 40,
         height: 40,
         transform: `translate(${cords.x}px, ${cords.y}px)`
-      }}
-      
-      />
+      }}/>
       <h1>Cursor Follower w/ React.js</h1>
       <button
         onClick={() => setEnabled(!enabled)}
