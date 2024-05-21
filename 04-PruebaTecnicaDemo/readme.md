@@ -27,5 +27,5 @@
 ```
 - Creamos el archivo de [vite.config.js](./vite.config.js)
 - Creamos el punto de entrada en [main.js](./main.jsx) (Ahora llamado main.jsx para que el plugin interprete la transpilación)
-- Instalamos Eslinter Standard (ya configurado en la carpeta madre del proyecto)
+- Instalamos Eslinter Standard (ya configurado en la [carpeta madre](../package.json) del proyecto)
 - 
