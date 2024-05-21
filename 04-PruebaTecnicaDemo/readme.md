@@ -25,7 +25,7 @@
 ```bash
     > pnpm install react react-dom -E
 ```
-- Creamos el archivo de [vite.config.js](../04-PruebaTecnicaDemo/vite.config.js)
-- Creamos el punto de entrada en main.js (Ahora llamado main.jsx para que el plugin interprete la transpilación)
+- Creamos el archivo de [vite.config.js](./vite.config.js)
+- Creamos el punto de entrada en [main.js](./main.jsx) (Ahora llamado main.jsx para que el plugin interprete la transpilación)
 - Instalamos Eslinter Standard (ya configurado en la carpeta madre del proyecto)
 - 
