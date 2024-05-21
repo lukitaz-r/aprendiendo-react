@@ -9,19 +9,21 @@
 ## TODO:
 - Inicializar el template VANILLA de Vite, para configurar el entorno de React desde 0.
 ```bash
-    Input > pnpm create vite@latest
-    Output > √ Project name: ... 04-PruebaTecnicaDemo
-           > √ Package name: ... 04-pruebatecnicademo
-           > √ Select a framework: » Vanilla
-           > √ Select a variant: » JavaScript
+    INPUT:
+        > pnpm create vite@latest
+    OUTPUT:
+        > √ Project name: ... 04-PruebaTecnicaDemo   
+        > √ Package name: ... 04-pruebatecnicademo
+        > √ Select a framework: » Vanilla
+        > √ Select a variant: » JavaScript
 ```
 - Instalamos el Plugin de Vite para React.js
 ```bash
-    Input > pnpm install @vitejs/plugin-react -E
+    > pnpm install @vitejs/plugin-react -E
 ```
 - Instalamos las dependencias de React.js
 ```bash
-    Input > pnpm install react react-dom -E
+    > pnpm install react react-dom -E
 ```
 - Creamos el archivo de [vite.config.js](../04-PruebaTecnicaDemo/vite.config.js)
 - Creamos el punto de entrada en main.js (Ahora llamado main.jsx para que el plugin interprete la transpilación)
