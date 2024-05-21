@@ -20,6 +20,12 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lukitaz-r/aprendiendo-react/issues"
+  }, 
+  "homepage": "https://github.com/lukitaz-r/aprendiendo-react#readme",
+  "devDependencies": {
+    "standard": "^17.1.0"
   },
-  "homepage": "https://github.com/lukitaz-r/aprendiendo-react#readme"
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
 }

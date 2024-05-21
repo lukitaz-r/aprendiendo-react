@@ -2,17 +2,14 @@
 
 const Square = ({index, isSelected, children, updateBoard}) => {
     const squareIsSelected = isSelected ? 'is__selected' : ''
-
     const handleClick = () => {
         updateBoard(index)
     }
-
     switch (children) {
         case 'X':
             return (
                 <div 
                     className={`square is__x ${squareIsSelected}`}
-
                 >
                     {children}
                 </div>
@@ -34,4 +31,5 @@ const Square = ({index, isSelected, children, updateBoard}) => {
             )
     }
 };
+
 export default Square;

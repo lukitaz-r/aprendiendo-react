@@ -2,7 +2,6 @@ import { useState } from 'react';
 import './grid.css'
 import confetti from 'canvas-confetti'
 
-
 import Square from './components/Square';
 import Winner from './components/Winner.jsx';
 
@@ -11,11 +10,9 @@ import {TURNS} from './utils/constants.js'
 import { checkWinner, checkEndGame } from './utils/functions.js';
 
 const Grid = () => {
-
     const [board, setBoard] = useState(Array(9).fill(null))
     const [turn, setTurn] = useState(TURNS.X)
     const [winner, setWinner] = useState(null)
-
     const updateBoard = (index) => {
         if (winner) return
         const newBoard = [...board]
@@ -33,13 +30,11 @@ const Grid = () => {
             setWinner(false)
         }
     }
-
     const resetGame = () => {
         setBoard(Array(9).fill(null))
         setTurn(TURNS.X)
         setWinner(null)
     }
-
     return (
         <>
             <header className='game__header'>
@@ -79,7 +74,6 @@ const Grid = () => {
                     {TURNS.O}
                 </Square>
             </div> 
-
             <Winner 
                 winner={winner}
                 resetGame={resetGame}
