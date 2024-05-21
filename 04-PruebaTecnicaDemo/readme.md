@@ -1,9 +1,14 @@
 # Demo de Prueba Tenica en React 1
 Esto vendria siendo una pequeño ejercicio basado en una prueba tecnica real.
 
+## TODO:
+- Recupera un hecho aleatorio con la primera API.
+- Recupera la primera palabra del hecho.
+- Muestra una imagen de un gato con la primera palabra del hecho recuperado usando la segunda API.
+
 ## API's: 
-- Random Fact:
-- Cat Pics: 
+- Random Fact: https://catfact.ninja/fact
+- Cat Pics: https://cataas.com/cat/says/hello
 
 ## Iniciando el proyecto:
 1- Inicializar el template VANILLA de Vite, para configurar el entorno de React desde 0.
@@ -41,3 +46,4 @@ Esto vendria siendo una pequeño ejercicio basado en una prueba tecnica real.
         > ➜  Network: use --host to expose
         > ➜  press h + enter to show help
 ```
+
